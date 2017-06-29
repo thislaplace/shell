@@ -5,8 +5,8 @@ myname="yuhao"
 echo "myname is $myname"
 
 #还可以用语句给变量赋值
-for file in 'ls /etc';do
-    echo "file is $file"
+for file in `ls /etc`; do
+    echo "/etc has file: $file"
 done
 
 #使用readonly命令可以将变量定义为只读变量
